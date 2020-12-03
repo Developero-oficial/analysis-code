@@ -1,0 +1,10 @@
+{
+  "name": "analysis-code",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Juan Correa (https://developero.io)",
+  "license": "ISC"
+}
