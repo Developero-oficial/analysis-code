@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "no-console": "off",
+    "no-undef": "error",
+    "prefer-template": "error"
+  },
+  "env": {
+    "browser": true
+  }
+}
