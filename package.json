@@ -4,10 +4,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
   "author": "Juan Correa (https://developero.io)",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "7.12.8",
+    "@babel/core": "7.12.9",
+    "@babel/preset-env": "7.12.7",
     "eslint": "7.14.0"
   }
 }
